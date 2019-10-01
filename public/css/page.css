@@ -1,0 +1,444 @@
+
+.pageload {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+  background:rgb(8,8,8,0.5);
+} 
+.pageload div
+{
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:16pt;
+}
+
+/*kontak*/
+
+.kontakfix ul
+{
+background-color: #333;
+background-size: auto;
+grid-template-columns: auto auto auto;
+width: 100%;
+height:30px;
+text-align:center;
+z-index:2;
+grid-gap: 10px;
+display: grid;
+list-style-type: none;
+padding: 0;
+overflow: hidden;
+margin:0px;
+}
+
+.kontakfix .wa
+{
+  margin-top:0px;
+  padding:5px;
+  height:30px;
+  background-color: green;
+  color: black;
+}
+.kontakfix  .telp
+{
+  color: black;
+  margin-top:0px;
+ padding:5px;
+ height:30px;
+ background-color: red;
+}
+#kontakfix .sms
+{
+  margin-top:0px;
+  padding:5px;
+  height:30px;
+ background-color: blue;
+ color: black;
+
+}
+
+.inti .judul
+{ 
+  text-transform:capitalize;
+}
+.inti .deskripsi
+{
+  text-align:justify;
+}
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:black;
+    background:white;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link
+{
+
+}
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    color:black;
+    background:#ddd;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -40px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #ddd ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 0px solid #ddd;
+    border-top:0px solid #e74c3c;
+    border-bottom:0px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+{
+  background: white;
+}
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #ddd;
+    color:#fff;
+    border-radius:0;
+    transition:none;
+}
+/*slidebar*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+
+  top: 50px;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.halaman-konten
+{
+margin:70px 0px 0px 0px;
+}
+.inti
+{
+height:100%;
+}
+
+.inti .kategori-nm
+{
+padding:10px 10px 10px 10px;
+color:black;
+margin:10px
+}
+
+.inti .kategori-bg
+{
+  height:100%;
+
+background:gray;
+padding:10px 10px 10px 10px;
+margin:10px
+}
+
+.inti .kategori-bg .nama
+{
+    margin-top:20px;
+    text-align:center;
+color:white;
+
+}
+
+.inti .kategori-bg .deskripsi
+{
+font-size: 12pt;
+color:white;
+margin:10px
+}
+
+.inti .kategori-bg .foto
+{
+color:gray;
+margin:10px
+}
+/* ------------------------- produk -----------------------*/
+
+.produk
+{
+border:1px solid transparent;padding:5px;line-height:1,5;
+}
+.produk .card
+{
+  width:100%;
+}
+.produk .card img
+{
+  width:100%;
+}
+.produk .card .card-body
+{
+  font-size:10pt;padding:0px
+}
+
+.produk .card .card-body .nama
+{
+  font-size:14px;height:35px;margin:0px 0px 10px 0px
+}
+.produk .card .card-body .checked
+{
+text-align:center; font-size:8pt
+}
+.produk .card .card-body .disc
+{
+text-align:center; font-size:8pt;color:red
+}
+.produk .card .card-body .harga
+{
+  font-size:12pt;color:green
+}
+
+/* ------------------------- navbar -----------------------*/
+.large 
+{
+width: 100%;
+background:rgba(255,255,255, 0.9);
+color:white;
+}
+
+.large a 
+{
+	font-size:14px;
+	color:black;
+	font-size:14px;
+
+}
+
+/* header small */
+
+.small 
+{ 
+width: 100%;
+background: rgb(146, 144, 144);
+}
+
+.small a
+{
+font-size:14px;
+color:black;
+}
+
+/* Transitions */
+
+nav,a
+{
+transition: .7s all;
+-moz-transition: .7s all;
+-webkit-transition: .7s all;
+-o-transition: .7s all;
+}
+
+
+/* ----------------------kaki -------------------*/
+footer{
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 30px;
+    background: white;
+  }
+
+
+  /*-------------------scrool----------------------*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: -10px;
+    right: 48%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #553;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
+  
+  #myBtn2 {
+    display: block;
+    position: fixed;
+    bottom: -10px;
+    right: 48%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #553;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  #myBtn2:hover {
+    background-color: #555;
+  }
+
+
+    /*-------------------paket----------------------*/
+.paket
+{
+  margin:10px;
+   
+}
+
+.paket .card-body
+{
+font-size:15pt;
+}
+
+
+    /*-------------------popup----------------------*/
+
+.popup
+{
+background:transparent;
+border:1px solid transparent;
+margin-left:20px;
+text-align:center;
+position:relative;
+}
+.popup .card
+{
+border:1px solid transparent;
+background:transparent;
+}
+
+.popup .card .card-header
+{
+top:0;
+right:0;
+position:absolute;
+z-index:999;
+margin:10px 0px 0px 0px;
+
+border:1px solid transparent;
+background:transparent;
+}
+.popup .card .card-body
+{
+width:100%;
+height:auto;
+margin:0px;
+}
+.popup .card .card-footer
+{
+border:1px solid transparent;
+background:transparent;
+bottom:0;
+left:0;
+position:absolute;
+z-index:999;
+margin:5px;
+color:rgb(248, 11, 11);
+}
+
+
+/*mega dropdown*/
+#mega-dropdown
+{
+position:static
+}
+
+@media only screen and (max-width: 600px) {
+  #mega-dropdown-menu
+  {
+   width:100%;  left:0; right:0; top:45px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  #mega-dropdown-menu
+  {
+   width:50%;  left:0; right:0; top:45px;
+  }
+
+}
+
+.memilih
+{
+ 
+	background: linear-gradient(rgb(204, 238, 255,0.5), rgb(128, 212, 255 ,0.9)); /* Standard syntax */
+	background: -webkit-linear-gradient(rgb(204, 238, 255,0.5), rgb(128, 212, 255 ,0.9)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgb(204, 238, 255,0.5), rgb(128, 212, 255,0.9)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgb(204, 238, 255,0.5), rgb(128, 212, 255 ,0.9)); /* For Firefox 3.6 to 15 */
+  padding:100px 0px 100px 0px;
+}
+.memilih  card
+{
+  background:transparent;
+}
+
+.fa-star
+{
+  color:yellow;
+}
